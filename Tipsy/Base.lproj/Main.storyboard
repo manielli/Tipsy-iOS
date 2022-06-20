@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Dri-4B-fDe">
-                                <rect key="frame" x="57" y="79" width="189.5" height="80"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Dri-4B-fDe">
+                                <rect key="frame" x="0.0" y="54" width="414" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter bill total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J03-AT-0Al">
                                         <rect key="frame" x="0.0" y="0.0" width="145" height="30"/>
@@ -115,6 +115,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hhq-2F-eDr"/>
                         <color key="backgroundColor" red="0.97254901959999995" green="1" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hhq-2F-eDr" firstAttribute="trailing" secondItem="Dri-4B-fDe" secondAttribute="trailing" id="0LG-dT-Bjk"/>
+                            <constraint firstItem="Dri-4B-fDe" firstAttribute="top" secondItem="Hhq-2F-eDr" secondAttribute="top" constant="10" id="7BM-JY-oAe"/>
+                            <constraint firstItem="Dri-4B-fDe" firstAttribute="leading" secondItem="Hhq-2F-eDr" secondAttribute="leading" id="B3l-8V-Mdr"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
