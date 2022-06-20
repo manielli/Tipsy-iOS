@@ -100,7 +100,7 @@
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Split" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWW-hz-NV2">
-                                                <rect key="frame" x="118.5" y="130" width="137" height="30"/>
+                                                <rect key="frame" x="30" y="130" width="314" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -123,8 +123,10 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="QnQ-eI-anM" firstAttribute="leading" secondItem="aF4-Iu-Eyz" secondAttribute="leading" id="8WY-Ye-d65"/>
+                                            <constraint firstItem="oWW-hz-NV2" firstAttribute="leading" secondItem="aF4-Iu-Eyz" secondAttribute="leading" constant="30" id="ZkF-ax-Ido"/>
                                             <constraint firstAttribute="trailing" secondItem="QnQ-eI-anM" secondAttribute="trailing" id="fud-AO-ZsK"/>
                                             <constraint firstAttribute="trailing" secondItem="ubf-MM-wN6" secondAttribute="trailing" constant="30" id="g3l-ns-NhG"/>
+                                            <constraint firstAttribute="trailing" secondItem="oWW-hz-NV2" secondAttribute="trailing" constant="30" id="oHB-o7-GaK"/>
                                             <constraint firstItem="ubf-MM-wN6" firstAttribute="leading" secondItem="aF4-Iu-Eyz" secondAttribute="leading" constant="30" id="qiV-6m-eLU"/>
                                         </constraints>
                                     </stackView>
