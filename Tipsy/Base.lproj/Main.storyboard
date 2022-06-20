@@ -46,9 +46,8 @@
                                     <constraint firstItem="hoc-4I-eJO" firstAttribute="leading" secondItem="Dri-4B-fDe" secondAttribute="leading" id="QQd-wu-993"/>
                                 </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PjP-Nc-CvA">
-                                <rect key="frame" x="0.0" y="198" width="414" height="698"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PjP-Nc-CvA">
+                                <rect key="frame" x="0.0" y="184" width="414" height="712"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubf-MM-wN6">
                                         <rect key="frame" x="61" y="60" width="101" height="30"/>
@@ -124,7 +123,11 @@
                         <constraints>
                             <constraint firstItem="Hhq-2F-eDr" firstAttribute="trailing" secondItem="Dri-4B-fDe" secondAttribute="trailing" id="0LG-dT-Bjk"/>
                             <constraint firstItem="Dri-4B-fDe" firstAttribute="top" secondItem="Hhq-2F-eDr" secondAttribute="top" constant="10" id="7BM-JY-oAe"/>
+                            <constraint firstAttribute="trailing" secondItem="PjP-Nc-CvA" secondAttribute="trailing" id="9at-Rt-CVj"/>
                             <constraint firstItem="Dri-4B-fDe" firstAttribute="leading" secondItem="Hhq-2F-eDr" secondAttribute="leading" id="B3l-8V-Mdr"/>
+                            <constraint firstAttribute="bottom" secondItem="PjP-Nc-CvA" secondAttribute="bottom" id="Z86-8m-Zg2"/>
+                            <constraint firstItem="PjP-Nc-CvA" firstAttribute="leading" secondItem="2zA-Ii-Njc" secondAttribute="leading" id="abJ-6F-fhk"/>
+                            <constraint firstItem="PjP-Nc-CvA" firstAttribute="top" secondItem="Dri-4B-fDe" secondAttribute="bottom" constant="25" id="qmX-ws-zy4"/>
                         </constraints>
                     </view>
                 </viewController>
