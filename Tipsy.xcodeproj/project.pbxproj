@@ -56,6 +56,9 @@
 		ADB689512326708D006D4E2B /* Tipsy */ = {
 			isa = PBXGroup;
 			children = (
+				F56B8BFE28D27DCD007083FB /* Views */,
+				F56B8BFD28D27DC4007083FB /* Controllers */,
+				F56B8BFC28D27DAA007083FB /* Models */,
 				ADB689522326708D006D4E2B /* AppDelegate.swift */,
 				ADB689542326708D006D4E2B /* SceneDelegate.swift */,
 				ADB689562326708D006D4E2B /* ViewController.swift */,
@@ -65,6 +68,27 @@
 				ADB689602326708E006D4E2B /* Info.plist */,
 			);
 			path = Tipsy;
+			sourceTree = "<group>";
+		};
+		F56B8BFC28D27DAA007083FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F56B8BFD28D27DC4007083FB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F56B8BFE28D27DCD007083FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
