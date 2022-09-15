@@ -21,6 +21,9 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func tipChanged(_ sender: UIButton) {
+        print(sender)
+    }
 
     @IBAction func calculatePressed(_ sender: UIButton) {
     }
