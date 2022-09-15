@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  CalculatorViewController.swift
 //  Tipsy
 //
 //  Created by Angela Yu on 09/09/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class CalculatorViewController: UIViewController {
 
     @IBOutlet weak var billTotalTextField: UITextField!
     @IBOutlet weak var zeroPctButton: UIButton!
