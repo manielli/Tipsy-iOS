@@ -76,7 +76,7 @@
                                                             <color key="titleColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lcz-hW-bvw"/>
+                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BKB-cg-Ebr"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rwu-A9-VfH">
@@ -90,7 +90,7 @@
                                                             <color key="titleColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7J3-ix-uez"/>
+                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mWS-At-jIs"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKa-YD-tVk">
@@ -104,7 +104,7 @@
                                                             <color key="titleColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wBF-gp-Qj7"/>
+                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="So1-tb-lFa"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -200,10 +200,10 @@
                     </view>
                     <connections>
                         <outlet property="billTotalTextField" destination="hoc-4I-eJO" id="bUo-oA-R1F"/>
-                        <outlet property="splitNumberLabel" destination="b3A-Bj-XTX" id="PgK-5a-Zhu"/>
-                        <outlet property="tenPctButton" destination="QnQ-eI-anM" id="0cH-5p-jn0"/>
-                        <outlet property="twentyPctButton" destination="QnQ-eI-anM" id="kKJ-65-Q4a"/>
-                        <outlet property="zeroPctButton" destination="QnQ-eI-anM" id="kul-x7-ava"/>
+                        <outlet property="splitNumberLabel" destination="b3A-Bj-XTX" id="sZo-6L-Og6"/>
+                        <outlet property="tenPctButton" destination="Rwu-A9-VfH" id="Jg2-4r-v8z"/>
+                        <outlet property="twentyPctButton" destination="CKa-YD-tVk" id="VkJ-96-OLs"/>
+                        <outlet property="zeroPctButton" destination="NIj-D2-Uq5" id="9RY-wr-Z31"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
