@@ -54,7 +54,14 @@ class CalculatorViewController: UIViewController {
             totalPerPerson = Float(totalBill! * 1.2)/Float(splitNumber!)
             settings = "Split between \(splitNumberLabel.text ?? "") people, with 20% tip."
         }
+        self.performSegue(withIdentifier: "goToResult", sender: self)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToResult" {
+            let destinationVC = segue.destination as! ResultsViewController
+            destinationVC.totalPerPerson = String(format: "%.2f", totalPerPerson ?? 0)
+            destinationVC.settings = settings
         }
     }
 }
