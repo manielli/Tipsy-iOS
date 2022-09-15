@@ -10,6 +10,9 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
 
+    var totalPerPerson: Float?
+    var settings: String?
+
     @IBOutlet weak var billTotalTextField: UITextField!
     @IBOutlet weak var zeroPctButton: UIButton!
     @IBOutlet weak var tenPctButton: UIButton!
@@ -39,9 +42,19 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
+        let splitNumber = Float(splitNumberLabel.text ?? "0")
+        let totalBill = Float(billTotalTextField.text ?? "2")
         if zeroPctButton.isSelected == true {
+            totalPerPerson = Float(totalBill!)/Float(splitNumber!)
+            settings = "Split between \(splitNumberLabel.text ?? "") people, with 0% tip."
         } else if tenPctButton.isSelected == true {
+            totalPerPerson = Float(totalBill! * 1.1)/Float(splitNumber!)
+            settings = "Split between \(splitNumberLabel.text ?? "") people, with 10% tip."
         } else if twentyPctButton.isSelected == true {
+            totalPerPerson = Float(totalBill! * 1.2)/Float(splitNumber!)
+            settings = "Split between \(splitNumberLabel.text ?? "") people, with 20% tip."
+        }
+    }
         }
     }
 }
