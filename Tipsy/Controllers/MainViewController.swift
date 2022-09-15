@@ -16,11 +16,6 @@ class MainViewController: UIViewController {
     @IBOutlet weak var twentyPctButton: UIStackView!
     @IBOutlet weak var splitNumberLabel: UILabel!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
     @IBAction func tipChanged(_ sender: UIButton) {
         print(sender)
     }
