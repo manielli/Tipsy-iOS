@@ -17,12 +17,30 @@ class MainViewController: UIViewController {
     @IBOutlet weak var splitNumberLabel: UILabel!
 
     @IBAction func tipChanged(_ sender: UIButton) {
+        if sender.currentTitle == "0%" {
+            zeroPctButton.isSelected = true
+            tenPctButton.isSelected = false
+            twentyPctButton.isSelected = false
+        } else if sender.currentTitle == "10%" {
+            zeroPctButton.isSelected = false
+            tenPctButton.isSelected = true
+            twentyPctButton.isSelected = false
+        } else if sender.currentTitle == "20%" {
+            zeroPctButton.isSelected = false
+            tenPctButton.isSelected = false
+            twentyPctButton.isSelected = true
+        }
     }
 
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
+        splitNumberLabel.text = String(format: "%.0f", sender.value)
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
+        if zeroPctButton.isSelected == true {
+        } else if tenPctButton.isSelected == true {
+        } else if twentyPctButton.isSelected == true {
+        }
     }
 }
 
