@@ -10,11 +10,19 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var billTotalTextField: UITextField!
+    @IBOutlet weak var zeroPctButton: UIStackView!
+    @IBOutlet weak var tenPctButton: UIStackView!
+    @IBOutlet weak var twentyPctButton: UIStackView!
+    @IBOutlet weak var splitNumberLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func calculatePressed(_ sender: UIButton) {
+    }
 }
 
