@@ -17,6 +17,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var splitNumberLabel: UILabel!
 
     @IBAction func tipChanged(_ sender: UIButton) {
+        billTotalTextField.endEditing(true)
         if sender.currentTitle == "0%" {
             zeroPctButton.isSelected = true
             tenPctButton.isSelected = false
@@ -33,6 +34,7 @@ class CalculatorViewController: UIViewController {
     }
 
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
+        billTotalTextField.endEditing(true)
         splitNumberLabel.text = String(format: "%.0f", sender.value)
     }
     
