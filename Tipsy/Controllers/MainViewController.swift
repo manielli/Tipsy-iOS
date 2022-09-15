@@ -25,6 +25,9 @@ class MainViewController: UIViewController {
         print(sender)
     }
 
+    @IBAction func stepperValueChanged(_ sender: UIStepper) {
+    }
+    
     @IBAction func calculatePressed(_ sender: UIButton) {
     }
 }
