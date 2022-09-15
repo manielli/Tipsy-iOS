@@ -46,13 +46,13 @@ class CalculatorViewController: UIViewController {
         let totalBill = Float(billTotalTextField.text ?? "2")
         if zeroPctButton.isSelected == true {
             totalPerPerson = Float(totalBill!)/Float(splitNumber!)
-            settings = "Split between \(splitNumberLabel.text ?? "") people, with 0% tip."
+            settings = "Split between \(splitNumberLabel.text ?? "2") people, with 0% tip."
         } else if tenPctButton.isSelected == true {
             totalPerPerson = Float(totalBill! * 1.1)/Float(splitNumber!)
-            settings = "Split between \(splitNumberLabel.text ?? "") people, with 10% tip."
+            settings = "Split between \(splitNumberLabel.text ?? "2") people, with 10% tip."
         } else if twentyPctButton.isSelected == true {
             totalPerPerson = Float(totalBill! * 1.2)/Float(splitNumber!)
-            settings = "Split between \(splitNumberLabel.text ?? "") people, with 20% tip."
+            settings = "Split between \(splitNumberLabel.text ?? "2") people, with 20% tip."
         }
         self.performSegue(withIdentifier: "goToResult", sender: self)
     }
